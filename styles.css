@@ -9,6 +9,21 @@ body, html {
     color: #d4d4d4;
 }
 
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.light #sidebar, body.light #tabs, body.light #terminal-container {
+    background-color: #f3f3f3;
+    color: #000000;
+}
+
+body.light #editor {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 #ide-container {
     display: flex;
     height: 100%;
@@ -70,6 +85,12 @@ body, html {
     border: 1px solid #555;
     color: #d4d4d4;
     padding: 5px;
+}
+
+body.light #themeSelect, body.light #fontSize {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    color: #000000;
 }
 
 /* Editor Container Styles */
@@ -142,6 +163,11 @@ body, html {
     line-height: 1.5;
 }
 
+body.light #editor {
+    background-color: #ffffff;
+    color: #000000;
+}
+
 /* Terminal Styles */
 #terminal-container {
     background-color: #1e1e1e;
@@ -173,4 +199,9 @@ body, html {
     width: 100%;
     font-family: 'Consolas', 'Courier New', monospace;
     font-size: 14px;
+}
+
+body.light #terminal-input {
+    background-color: #ffffff;
+    color: #000000;
 }
