@@ -16,7 +16,7 @@ The Custom IDE project is a lightweight and flexible web-based Integrated Develo
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/custom-ide.git
+   git clone https://github.com/jojo20071/VsClone
    ```
 
 2. **Navigate to the Project Directory**:
